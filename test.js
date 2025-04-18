@@ -179,7 +179,7 @@ try {
 
     console.log('Тест 10 "Выход за пределы доски" пройден!');
 } catch (error) {
-    console.error('Ошибка в тесте 10`:', error);
+    console.error('Ошибка в тесте 10:', error);
 }
 // Тест 11: проверка на логики хождения слона
 try {
@@ -240,19 +240,6 @@ try {
 } catch (error) {
     console.error('Ошибка в Тесте 14:', error);
 }
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
-// Запускаем тесты
 runTests();
